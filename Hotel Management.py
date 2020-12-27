@@ -6,7 +6,7 @@ occupied = []
 unoccupied = []
 staying_customers = []
 customers = []
-ph_no = []
+
 
 #CREATING CLASSES AND RELATED METHODS
 
@@ -180,8 +180,7 @@ def check_out():
 Customer(1,"A",9030095595,"Gold")
 Customer(2,"B",9948295888,"Silver")
 
-for i in customers:
-    ph_no.append(i.phone_number)
+
 
 #CREATING WHILE LOOP
 while True:
@@ -258,6 +257,7 @@ while True:
 #DISPLAYING ALL MEMBERS/CUSTOMERS
  elif start == 4:
      id = []
+     ph_no = []
      name = []
      phone_num = []
      membership = []
